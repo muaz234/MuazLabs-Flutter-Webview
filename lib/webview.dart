@@ -10,8 +10,8 @@ class WebView extends StatelessWidget {
     return Container(
       child: prefix0.WebView(
         initialUrl: url,
-        
         javascriptMode: JavascriptMode.unrestricted,
+    )
     );
   }
 }

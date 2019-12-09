@@ -9,14 +9,16 @@ class MyApp extends StatelessWidget {
   
   @override
   Widget build(BuildContext context) {
-    return new MaterialApp(
-  title: 'Bus On Demand',
+    return new MaterialApp
+    (
+  title: 'Prasarana JP Web Based',
   debugShowCheckedModeBanner: false,
-  theme: new ThemeData(
+  theme: new ThemeData
+  (
     primarySwatch: Colors.blue,
   ),
-  home: prefix0.WebView("https://prs.prasarana.com.my/login")
-);
+  home: prefix0.WebView("https://www.myrapid.com.my/plan-my-journey")
+  );
   }
 }
 
